@@ -15,24 +15,24 @@ This is an API project built with Node.js.
    git clone https://github.com/pedrodamiani21/solid-backend.git
 
 2. Navigate to the project directory:
-  ```bash
-    cd .\solid-backend
+     ```bash
+     cd .\solid-backend
 
-4. Install dependencies:
+3. Install dependencies:
    ```bash
     npm install
 
-5. Compile the code:
+4. Compile the code:
    ```bash
     npm run build
 
-6. Copy .env.example to .env && fill in the database fields
+5. Copy .env.example to .env && fill in the database fields
 
-7. Run Migrations
+6. Run Migrations
    ```bash
     npx sequelize db:migrate
 
-8. Run Seeds
+7. Run Seeds
    ```bash
     npx sequelize db:seed:all
 
